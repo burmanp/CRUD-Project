@@ -1,21 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
 
-import Button from 'react-bootstrap/Button';
-import Inputstudent from './components/inputstudent';
-import Liststudent from './components/liststudent';
-
+import Button from "react-bootstrap/Button";
+import Inputstudent from "./components/inputstudent";
+import Liststudent from "./components/liststudent";
 
 function App() {
-
+  console.log("git test");
   return (
     <>
-      <Inputstudent/>
-      <Liststudent/>
+      <Inputstudent />
+      <Liststudent />
       {/* <Button variant="primary">Primary</Button>{' '}
       <ModalFrom /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
